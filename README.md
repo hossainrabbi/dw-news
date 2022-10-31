@@ -4,10 +4,10 @@ This is a DW Newspaper clone. It is a simple static web application using by tai
 
 ### Technology used:
 
-    - HTML
-    - CSS
-    - Tailwind CSS
-    - flowbite
+- HTML
+- CSS
+- Tailwind CSS
+- flowbite
 
 ### Live Link: [Preview](https://hossainrabbi.github.io/dw-news)
 
