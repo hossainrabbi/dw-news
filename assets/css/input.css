@@ -19,3 +19,10 @@
     @apply container px-4 mx-auto;
   }
 }
+
+@layer utilities {
+  .height-remove-navbar {
+    height: calc(100vh - 4rem);
+    top: 4rem;
+  }
+}

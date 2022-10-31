@@ -14,7 +14,9 @@
   <body>
     <header class="sticky z-50 top-0 w-full">
       <!-- ===== Navbar Area Start ===== -->
-      <nav class="py-3 bg-white border-white shadow z-50 relative">
+      <nav
+        class="bg-white border-white shadow h-16 flex items-center z-50 relative"
+      >
         <div class="main-container flex justify-between items-center">
           <div class="flex items-center gap-8">
             <a href="#" class="flex items-center">
@@ -39,16 +41,34 @@
             </div>
           </div>
           <button
-            data-collapse-toggle="navbar-solid-bg"
             type="button"
             class="inline-flex justify-center items-center text-gray-900 border border-transparent hover:border-gray-900"
-            aria-controls="navbar-solid-bg"
-            aria-expanded="false"
+            data-drawer-target="drawer-navbar"
+            data-drawer-show="drawer-navbar"
+            aria-controls="drawer-navbar"
           >
             <i class="fa-solid fa-bars text-lg px-2 pt-[2px]"></i>
           </button>
         </div>
       </nav>
+
+      <!-- Navbar Slider -->
+      <div
+        id="drawer-navbar"
+        class="fixed z-40 height-remove-navbar p-4 overflow-y-auto bg-white w-80"
+        tabindex="-1"
+        aria-labelledby="drawer-label"
+      >
+        <button
+          type="button"
+          data-drawer-dismiss="drawer-navbar"
+          aria-controls="drawer-navbar"
+          class="inline-flex justify-center items-center text-gray-900 border border-transparent hover:border-gray-900 absolute top-2.5 right-2.5"
+        >
+          <i class="fa-solid fa-x text-lg px-2 pt-[2px]"></i>
+        </button>
+      </div>
+      <!-- Navbar Slider -->
       <!-- ===== Navbar Area End ===== -->
     </header>
 
@@ -462,7 +482,7 @@
       <!-- ===== In Focus Area End ===== -->
     </main>
 
-    <footer class="bg-gray-800">
+    <footer class="bg-[#002D5A]">
       <div class="main-container py-5">
         <p class="text-center text-white">© 2022 Deutsche Welle</p>
       </div>
