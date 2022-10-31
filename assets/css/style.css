@@ -2059,6 +2059,10 @@ html,
   gap: 1.5rem;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -3375,6 +3379,26 @@ html,
 .hover\:text-\[\#002D5A\]:hover{
   --tw-text-opacity: 1;
   color: rgb(0 45 90 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#1195F5\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(17 149 245 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#1DA1F2\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(29 161 242 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#0674E7\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(6 116 231 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#0A66C2\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(10 102 194 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover{
