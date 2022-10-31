@@ -1,0 +1,14 @@
+{
+  "name": "dw-news",
+  "version": "1.0.0",
+  "description": "This is a news application",
+  "main": "index.js",
+  "author": "Hossain Rabbi",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  },
+  "dependencies": {
+    "flowbite": "^1.5.3"
+  }
+}
